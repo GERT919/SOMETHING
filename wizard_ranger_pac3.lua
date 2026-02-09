@@ -1,4 +1,4 @@
-return {
+{
     ["self"] = {
         ["ClassName"] = "group",
         ["UniqueID"] = "wizard_ranger_armor"
