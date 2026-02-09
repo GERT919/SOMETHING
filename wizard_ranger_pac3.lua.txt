@@ -1,0 +1,73 @@
+{
+  ["self"] = {
+    ["ClassName"] = "group",
+    ["UniqueID"] = "ncr_ranger_outfit"
+  },
+  ["children"] = {
+    {
+      ["self"] = {
+        ["ClassName"] = "model",
+        ["UniqueID"] = "ranger_helmet",
+        ["Model"] = "models/combine_anim/combine_soldier_headshot.mdl",
+        ["Bone"] = "head",
+        ["Position"] = Vector(0, 0, 0),
+        ["Angles"] = Angle(0, 0, 0),
+        ["Scale"] = Vector(1, 1, 1),
+        ["Material"] = "models/combine_soldier/faceshield"
+      },
+      ["children"] = {}
+    },
+    {
+      ["self"] = {
+        ["ClassName"] = "model",
+        ["UniqueID"] = "duster_coat",
+        ["Model"] = "models/props_c17/BriefCase001a.mdl",
+        ["Bone"] = "chest",
+        ["Position"] = Vector(0, 0, -8),
+        ["Angles"] = Angle(0, 0, 0),
+        ["Scale"] = Vector(2.5, 2.5, 3),
+        ["Material"] = "models/props_wasteland/metal_panel02a"
+      },
+      ["children"] = {}
+    },
+    {
+      ["self"] = {
+        ["ClassName"] = "model",
+        ["UniqueID"] = "chest_plate",
+        ["Model"] = "models/props_combine/breenbust.mdl",
+        ["Bone"] = "chest",
+        ["Position"] = Vector(4, 0, -2),
+        ["Angles"] = Angle(0, 0, 0),
+        ["Scale"] = Vector(0.6, 0.6, 0.8),
+        ["Material"] = "models/props_combine/breenbust"
+      },
+      ["children"] = {}
+    },
+    {
+      ["self"] = {
+        ["ClassName"] = "model",
+        ["UniqueID"] = "shoulder_armor_left",
+        ["Model"] = "models/props_junk/metal_paintcan001a.mdl",
+        ["Bone"] = "bip01_l_upperarm",
+        ["Position"] = Vector(0, -6, 0),
+        ["Angles"] = Angle(90, 0, 0),
+        ["Scale"] = Vector(0.8, 0.8, 1),
+        ["Material"] = "models/props_combine/combine_interface_disp"
+      },
+      ["children"] = {}
+    },
+    {
+      ["self"] = {
+        ["ClassName"] = "model",
+        ["UniqueID"] = "shoulder_armor_right",
+        ["Model"] = "models/props_junk/metal_paintcan001a.mdl",
+        ["Bone"] = "bip01_r_upperarm",
+        ["Position"] = Vector(0, 6, 0),
+        ["Angles"] = Angle(90, 0, 0),
+        ["Scale"] = Vector(0.8, 0.8, 1),
+        ["Material"] = "models/props_combine/combine_interface_disp"
+      },
+      ["children"] = {}
+    }
+  }
+}
